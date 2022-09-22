@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define nV 4
+#define INF 999
 void printMatrix(int matrix[][nV]);
 void floydWarshall(int graph[][nV]) {
   int matrix[nV][nV], i, j, k;
